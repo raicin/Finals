@@ -3,10 +3,10 @@ const cors = require('cors');
 const app = express();
 const port = 3000;
 
-app.use(cors());
+app.use(cors({ origin: 'https://finals-3n1v.onrender.com/'}));
 
 //routes
-app.get('/', cors(), (req, res) => {
+app.get('/', (req, res) => {
     const resume = 
     {
         Personal_Information: 
