@@ -3,10 +3,6 @@ const cors = require('cors');
 const app = express();
 const port = 3000;
 
-app.use(cors({ origin: 'https://ffinals.onrender.com/'}));
-
-//routes
-app.get('/', (req, res) => {
     const resume = 
     {
         Personal_Information: 
@@ -103,10 +99,13 @@ app.get('/', (req, res) => {
             }
         ]
     }
+    app.use(cors());
 
+    //routes
+    app.get('/', (req, res) => {
     res.json(resume);
 });
 //start
 app.listen(port, () => {
-    console.log(`Server Running on port ${port}`);
+    console.log(`Server Running on port http://localhost:${port}`);
 });
