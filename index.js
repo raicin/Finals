@@ -3,7 +3,7 @@ const cors = require('cors');
 const app = express();
 const port = 3000;
 
-app.use(cors({ origin: 'https://finals-3n1v.onrender.com/'}));
+app.use(cors({ origin: 'https://ffinals.onrender.com/'}));
 
 //routes
 app.get('/', (req, res) => {
