@@ -1,9 +1,12 @@
 const express = require('express');
+const cors = require('cors');
 const app = express();
 const port = 3000;
 
+app.use(cors());
+
 //routes
-app.get('/', (req, res) => {
+app.get('/', cors(), (req, res) => {
     const resume = 
     {
         Personal_Information: 
