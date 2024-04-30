@@ -48,6 +48,10 @@ const port = 3000;
             {
                 Date: "February 2024",
                 Description: "Second Year College Dean's Lister for the First Semester"
+            },
+            {
+                Date: "April 2024",
+                Description: "Completed IT23 Project"
             }
         ],
 
