@@ -52,6 +52,10 @@ const port = 3000;
             {
                 Date: "April 2024",
                 Description: "Completed IT23 Project"
+            },
+            {
+                Date: "April 2024",
+                Description: "Best in Website Programming"
             }
         ],
 
@@ -87,6 +91,11 @@ const port = 3000;
             {
                 Level: ["College", "Bachelor of Science in Information Technology"],
                 School: "University of Southern Philippines Foundation",
+                Year: "2022-Present"
+            },
+            {
+                Level: "College",
+                School: "University",
                 Year: "2022-Present"
             }
         ],
